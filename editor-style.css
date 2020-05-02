@@ -1,0 +1,18 @@
+﻿@charset "UTF-8";
+
+/* 基本 */
+body {
+    font-family: "Segoe UI", "BIZ UDPゴシック",sans-serif;
+}
+
+.block-editor-block-list__block[data-type="core/paragraph"] p {
+    line-height: 2;
+}
+
+.editor-post-title__input {
+    font-family: inherit;
+}
+
+.wp-block {
+    max-width: calc( 760px + 30px );
+}
